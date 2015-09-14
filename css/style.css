@@ -1,0 +1,282 @@
+.navbar{ margin-bottom: 0px;}
+
+.nav li a{
+  font-size: 15px;
+  margin: 16px 1px 16px 1px;
+  color: #ff0000;
+}
+
+ul li a .btn-primary{
+  color:#ffffff;
+}
+
+.navbar-right li{
+  text-align: center;
+}
+
+.navbar-right li .btn-danger {
+    color: #FFF !important;
+}
+
+.navbar-right li .btn-danger:hover {
+    color: #FFF !important;
+    background-color: #C9302C !important;
+    border-color: #AC2925;
+}
+
+.navbar-right li:last-child{
+  margin-right:20px;
+  margin-left: 20px;
+}
+
+
+.logo{
+  margin: 16px 3px 16px 3px;
+}
+
+@media (max-width: 1050px) {
+  .logo{
+    width: 200px;
+    height:40px;
+  }
+}
+
+/*****************media queries**************/
+@media(max-width:991px){
+  .hero-unit h2{
+    font-size: 20px;
+  }
+
+  .profile-module>div>img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile-img>a{
+    
+    text-align: center;
+    display: block;
+  }
+
+  .profile-img .img-circle, .profile-img .block1 h4, .profile-img .block1 h5 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    clear: left;
+    font-weight: bold;
+  }
+}
+
+@media(min-width:992px){
+  .profile-img .img-circle{
+    float: left;
+  }
+  
+}
+/***************/
+
+.hero-unit{
+  color: #ffffff;
+  text-shadow: 0.3px 0.3px 0.3px #000000;
+  padding-top: 100px;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1051a5+0,0f709d+37,0f7f99+64,0fa68f+100 */
+background: #1051a5; /* Old browsers */
+background: -moz-linear-gradient(top,  #1051a5 0%, #0f709d 37%, #0f7f99 64%, #0fa68f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1051a5), color-stop(37%,#0f709d), color-stop(64%,#0f7f99), color-stop(100%,#0fa68f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1051a5 0%,#0f709d 37%,#0f7f99 64%,#0fa68f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1051a5 0%,#0f709d 37%,#0f7f99 64%,#0fa68f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1051a5 0%,#0f709d 37%,#0f7f99 64%,#0fa68f 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1051a5 0%,#0f709d 37%,#0f7f99 64%,#0fa68f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1051a5', endColorstr='#0fa68f',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.hero-unit img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.small{font-size: 20px; text-align: center;
+  padding-bottom: 50px;}
+.hero-unit h2, .hearo-unit h3{
+  text-align: center;
+  color:#ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.title-bullet{ list-style-type: none;
+padding-bottom: 20px;
+padding-top: 50px;}
+
+.title-bullet li{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.title-bullet{
+  list-style-image: url('../images/icon-check.png') !important ;
+  padding-top: 60px;
+}
+
+#demo-form{
+  border: solid 1px #ffffff;"
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  margin-bottom: 30px;
+}
+
+
+.submit{
+  min-width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: #449D44;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+/******************Services********************/
+.services{
+  background-image: url('../images/creampaper.png');
+  text-align: center;
+  padding: 20px;
+}
+
+.services-head{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.services img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.offer-module h3{
+  padding-bottom: 30px;
+}
+.offer-module p{
+  font-size: 16px;
+  text-align: justify;
+}
+/****************profiles************/
+.badge{ background-color:#077eba}
+
+.profile-img{
+  padding: 20px;
+}
+
+.profile-module{
+  padding: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.img-circle{
+  margin-right: 20px;
+}
+
+.client-name{
+  padding: 30px 0 30px 0;
+  color: #666666; /*#449D44;*/
+}
+
+.ceo{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.block1, .block2{
+  padding: 0 20px 60px 20px;
+}
+
+h5 span h4{ color:#0055BB;}
+
+
+.client-btn{
+  text-align: center;
+}
+/**************Well Block************/
+
+.well div{
+  background-color: transparent; 
+  border: none; 
+  text-align: center;
+}
+
+.caption h3{
+  color:#C9302C;
+}
+
+#well-head2{
+  /*color:#C9302C;*/
+  padding: 10px 40px 0 40px;
+  font-size: 18px;
+}
+
+.btn-danger{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/*******footer*********/
+.foot{
+  background-color: #0055BB;
+  color: #ffffff;
+  padding-top: 50px;
+
+}
+
+footer a{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+footer img{
+  margin-top: 50px;
+}
+
+footer ul li{ list-style-type: none;}
+footer ul li a{ font-size: 14px;}
+footer ul li:first-child{ font-weight: bold;margin-bottom: 20px;}
+footer ul li:first-child a{ font-size: 20px;}
+
+.foot-logo img{
+  display: block;
+  clear: both;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
